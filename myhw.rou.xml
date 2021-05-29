@@ -1,0 +1,37 @@
+  <routes>
+
+<vTypeDistribution id="non_ego_car_dist0">
+    <vType id="non_ego_car_type0" 
+      vClass="passenger" 
+      guiShape="passenger/sedan" 
+      maxSpeed="25" 
+      minGap="2.5" 
+      color="0,0,1" 
+      speedFactor="normc(0.66,2.8,0.66,1)" 
+      probability="1"
+      />
+</vTypeDistribution >
+
+  <flow id="flow0" 
+    from="a"
+	to="c"
+    begin="0" 
+    type="non_ego_car_dist0" 
+    departSpeed="20" 
+    departLane="0" 
+    probability="0.6"
+    />
+	
+<vTypeDistribution id="ego_car_dist">
+    <vType id="ego_car" 
+      vClass="passenger" 
+      guiShape="passenger/sedan" 
+      maxSpeed="20" 
+      minGap="2.5" 
+      color="1,1,0"
+      speedFactor="normc(0.66,2.8,0.66,1)" 
+      probability="1.0"
+      />
+</vTypeDistribution >
+	
+</routes>

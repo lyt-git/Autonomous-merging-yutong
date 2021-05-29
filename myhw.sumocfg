@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+  <input>
+    <net-file value="myhw.net.xml"/>
+    <route-files value="myhw.rou.xml"/>
+	<gui-settings-file value="myhw.settings.xml"/>
+  </input>
+
+  <time>
+    <step-length value="0.05"/>
+  </time>
+
+  <random-number>
+    <random value="false"/>
+  </random-number>
+  
+  <gui_only>
+  <start value="true"/>
+  <quit-on-end value="true"/>
+  </gui_only>
+  
+</configuration>
