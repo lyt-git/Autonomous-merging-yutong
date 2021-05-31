@@ -83,7 +83,7 @@ cfgfile = "E:\\SUMO\\FYPcode\\myhighway\\myhw.sumocfg"
 
  
 
-
+'''Functions in DQN agent'''
 
 Transition = namedtuple('Transition',
                         ('state', 'action', 'next_state', 'reward'))
@@ -209,7 +209,7 @@ loss.backward()
 
 
 
-
+'''environment setup'''
 
 def addego():
     #traci.route.add("ego_route", ["b", "c"])
